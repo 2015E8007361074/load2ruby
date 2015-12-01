@@ -9,7 +9,7 @@ hash.each do|key,value|
 end
 =end
 
-
+=begin
 names = ["yuwenyan","wenyanyu","yanwenyu","ieeflsyu","bobyu"]
 
 names.each do |name|
@@ -18,5 +18,11 @@ names.each do |name|
   end
 end
 
-  
+=end
+
+
+require "date"
+
+days = Date.today - Date.new(1994, 11, 14)
+puts(days.to_i)
 
