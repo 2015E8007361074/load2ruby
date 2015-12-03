@@ -21,3 +21,8 @@ obj = C2.new
 p obj.old_hello
 p obj.hello
 p obj.test
+
+p C2.ancestors #取得继承关系列表
+p C2.superclass #直接返回C2的父类C1
+
+p Enumerable.instance_methods #以符号的形式返回该类的实例方法列表
